@@ -1,0 +1,20 @@
+
+@domain api.host.com
+
+@name sendOrder
+@endpoint POST /order/send
+@request {
+  productId: id;
+  quantity: number;
+}
+@response {
+  status: 'success' | 'failed';
+}
+
+@name getOrder
+@endpoint GET /order/{id}
+@response {
+  product: id;
+  quantity: number;
+  arrival: Date;
+}

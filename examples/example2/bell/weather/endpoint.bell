@@ -1,0 +1,11 @@
+
+import { Coordinates } from 'src/types';
+
+@name searchWeather
+@endpoint POST /weather
+@request {
+  location: Coordinates;
+}
+@response {
+  temperature: number;
+}
