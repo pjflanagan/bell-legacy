@@ -1,0 +1,3 @@
+
+@endpoint GET /search/?q={query}
+@name search
