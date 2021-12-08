@@ -1,0 +1,34 @@
+{
+  "name": "bell-ui",
+  "displayName": "bell-ui",
+  "description": "API endpoint description files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "bell",
+        "aliases": [
+          "Bell",
+          "bell"
+        ],
+        "extensions": [
+          ".bell"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "bell",
+        "scopeName": "",
+        "path": "./syntaxes/bell.tmLanguage.json"
+      }
+    ]
+  }
+}
