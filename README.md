@@ -1,5 +1,6 @@
+This is the first ideation on what is now [Bell](https://github.com/pjflanagan/bell). What this project describes is a little more like what Fern is. This project is no longer being pursued in this direction, we have transitioned to a DSL Postman alternative. 
 
-# Bell
+# Bell (Legacy)
 
 Bell is a solution for storing data about API endpoints that covers basic use
 cases for calling and testing APIs. Bell files describe your API endpoints and
